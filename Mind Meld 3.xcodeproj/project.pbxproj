@@ -13,6 +13,9 @@
 		888192061A55D52300EFF3DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888192051A55D52300EFF3DE /* Images.xcassets */; };
 		888192091A55D52300EFF3DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888192071A55D52300EFF3DE /* LaunchScreen.xib */; };
 		888192151A55D52300EFF3DE /* Mind_Meld_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888192141A55D52300EFF3DE /* Mind_Meld_3Tests.swift */; };
+		8881921F1A55D5DA00EFF3DE /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8881921E1A55D5DA00EFF3DE /* Candy.swift */; };
+		888192231A55D6A200EFF3DE /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888192221A55D6A200EFF3DE /* ViewController2.swift */; };
+		888192271A55F91400EFF3DE /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888192261A55F91400EFF3DE /* ViewController3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		8881920E1A55D52300EFF3DE /* Mind Meld 3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mind Meld 3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		888192131A55D52300EFF3DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		888192141A55D52300EFF3DE /* Mind_Meld_3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mind_Meld_3Tests.swift; sourceTree = "<group>"; };
+		8881921E1A55D5DA00EFF3DE /* Candy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
+		888192221A55D6A200EFF3DE /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		888192261A55F91400EFF3DE /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +85,11 @@
 			children = (
 				888191FE1A55D52300EFF3DE /* AppDelegate.swift */,
 				888192001A55D52300EFF3DE /* ViewController.swift */,
+				888192221A55D6A200EFF3DE /* ViewController2.swift */,
+				888192261A55F91400EFF3DE /* ViewController3.swift */,
 				888192021A55D52300EFF3DE /* Main.storyboard */,
 				888192051A55D52300EFF3DE /* Images.xcassets */,
+				8881921E1A55D5DA00EFF3DE /* Candy.swift */,
 				888192071A55D52300EFF3DE /* LaunchScreen.xib */,
 				888191FC1A55D52300EFF3DE /* Supporting Files */,
 			);
@@ -212,7 +221,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888192271A55F91400EFF3DE /* ViewController3.swift in Sources */,
 				888192011A55D52300EFF3DE /* ViewController.swift in Sources */,
+				888192231A55D6A200EFF3DE /* ViewController2.swift in Sources */,
+				8881921F1A55D5DA00EFF3DE /* Candy.swift in Sources */,
 				888191FF1A55D52300EFF3DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
