@@ -158,13 +158,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mike.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="BjT-p4-qZb">
                                 <rect key="frame" x="229" y="274" width="107" height="90"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Drx-uo-aIT">
-                                <rect key="frame" x="271" y="570" width="46" height="30"/>
-                                <state key="normal" title="Next"/>
-                                <connections>
-                                    <action selector="turnComplete:" destination="7cO-dY-bdL" eventType="touchUpInside" id="86g-6d-8sm"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=">>" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mco-Mr-qCW">
                                 <rect key="frame" x="0.0" y="374" width="32" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -261,6 +254,12 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4QN-S5-0Jy">
+                                <rect key="frame" x="1" y="459" width="32" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qFu-Fg-f9y">
                                 <rect key="frame" x="26" y="479" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -285,30 +284,58 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4QN-S5-0Jy">
-                                <rect key="frame" x="1" y="459" width="32" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t3C-Hg-xLg">
+                                <rect key="frame" x="105" y="528" width="287" height="21"/>
+                                <attributedString key="attributedText"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bs0-KM-eLW">
+                                <rect key="frame" x="58" y="513" width="111" height="66"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Drx-uo-aIT">
+                                <rect key="frame" x="200" y="534" width="120" height="53"/>
+                                <state key="normal" title="Ready for Next"/>
+                                <connections>
+                                    <action selector="turnComplete:" destination="7cO-dY-bdL" eventType="touchUpInside" id="86g-6d-8sm"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="RWm-mv-v1v"/>
                     <connections>
+                        <outlet property="indicatorFive" destination="4QN-S5-0Jy" id="pz9-Pw-p8J"/>
+                        <outlet property="indicatorFour" destination="w66-ld-rQE" id="fni-OG-DO4"/>
                         <outlet property="indicatorOne" destination="Mco-Mr-qCW" id="AAn-2J-Evf"/>
+                        <outlet property="indicatorSix" destination="jgA-EV-VAR" id="xUb-yN-ScV"/>
+                        <outlet property="indicatorThree" destination="QEg-o8-gS6" id="wy7-JL-Ip0"/>
                         <outlet property="indicatorTwo" destination="rTS-PH-fQV" id="E4w-eq-Kw8"/>
                         <outlet property="lblGame" destination="xK4-YO-bgR" id="HqU-Yn-amO"/>
+                        <outlet property="lblTimer" destination="bs0-KM-eLW" id="Eos-hQ-liU"/>
+                        <outlet property="lblWin" destination="t3C-Hg-xLg" id="fr6-xA-KPB"/>
                         <outlet property="txtBoxAdd" destination="img-iV-1hl" id="RXz-Qo-8BQ"/>
                         <outlet property="w1" destination="0s8-ou-o2I" id="fFl-31-EEe"/>
                         <outlet property="w2" destination="KPz-Q9-zvb" id="lC3-JE-Kgc"/>
+                        <outlet property="wordFive" destination="VQL-A5-SyP" id="t8j-Fq-pic"/>
+                        <outlet property="wordFiveP2" destination="iPl-os-mYO" id="dax-Pa-UXM"/>
+                        <outlet property="wordFour" destination="nVq-mG-0ye" id="JFw-1h-ZQf"/>
+                        <outlet property="wordFourP2" destination="Suz-HF-EgO" id="j00-tn-1Z3"/>
                         <outlet property="wordOne" destination="YyM-VH-Epd" id="I0Z-1F-mgd"/>
                         <outlet property="wordOneP2" destination="dbv-vM-ZSa" id="GC7-sq-XXd"/>
+                        <outlet property="wordSix" destination="7Bp-FC-IKn" id="uTb-ga-ne4"/>
+                        <outlet property="wordSixP2" destination="nph-SL-skc" id="0rg-yi-zV1"/>
+                        <outlet property="wordThree" destination="tcs-Wa-WQZ" id="Z0s-Pw-x8e"/>
+                        <outlet property="wordThreeP2" destination="gwP-IJ-yak" id="Wtc-gf-kbZ"/>
+                        <outlet property="wordTwo" destination="FvB-Fw-xEk" id="uDz-tl-gbc"/>
+                        <outlet property="wordTwoP2" destination="f8e-QD-UOg" id="p4K-lk-MyI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rAk-Nq-BpY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1440" y="1137.5"/>
+            <point key="canvasLocation" x="1440" y="1137"/>
         </scene>
     </scenes>
     <resources>
