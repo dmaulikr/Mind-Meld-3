@@ -162,7 +162,7 @@
                                 <rect key="frame" x="271" y="570" width="46" height="30"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
-                                    <action selector="TurnOneComplete:" destination="7cO-dY-bdL" eventType="touchUpInside" id="bH9-zg-Jb0"/>
+                                    <action selector="turnComplete:" destination="7cO-dY-bdL" eventType="touchUpInside" id="86g-6d-8sm"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=">>" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mco-Mr-qCW">
