@@ -16,6 +16,8 @@
 		8881921F1A55D5DA00EFF3DE /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8881921E1A55D5DA00EFF3DE /* Candy.swift */; };
 		888192231A55D6A200EFF3DE /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888192221A55D6A200EFF3DE /* ViewController2.swift */; };
 		888192271A55F91400EFF3DE /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888192261A55F91400EFF3DE /* ViewController3.swift */; };
+		8881922A1A56139300EFF3DE /* lou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 888192281A56139300EFF3DE /* lou.jpg */; };
+		8881922B1A56139300EFF3DE /* mike.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 888192291A56139300EFF3DE /* mike.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		8881921E1A55D5DA00EFF3DE /* Candy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
 		888192221A55D6A200EFF3DE /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		888192261A55F91400EFF3DE /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		888192281A56139300EFF3DE /* lou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lou.jpg; sourceTree = "<group>"; };
+		888192291A56139300EFF3DE /* mike.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mike.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 		888191FB1A55D52300EFF3DE /* Mind Meld 3 */ = {
 			isa = PBXGroup;
 			children = (
+				888192291A56139300EFF3DE /* mike.jpg */,
+				888192281A56139300EFF3DE /* lou.jpg */,
 				888191FE1A55D52300EFF3DE /* AppDelegate.swift */,
 				888192001A55D52300EFF3DE /* ViewController.swift */,
 				888192221A55D6A200EFF3DE /* ViewController2.swift */,
@@ -202,7 +208,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				888192041A55D52300EFF3DE /* Main.storyboard in Resources */,
+				8881922B1A56139300EFF3DE /* mike.jpg in Resources */,
 				888192091A55D52300EFF3DE /* LaunchScreen.xib in Resources */,
+				8881922A1A56139300EFF3DE /* lou.jpg in Resources */,
 				888192061A55D52300EFF3DE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
