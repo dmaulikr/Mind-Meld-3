@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		888191FF1A55D52300EFF3DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888191FE1A55D52300EFF3DE /* AppDelegate.swift */; };
 		888192011A55D52300EFF3DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888192001A55D52300EFF3DE /* ViewController.swift */; };
-		888192041A55D52300EFF3DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888192021A55D52300EFF3DE /* Main.storyboard */; };
 		888192061A55D52300EFF3DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888192051A55D52300EFF3DE /* Images.xcassets */; };
 		888192091A55D52300EFF3DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888192071A55D52300EFF3DE /* LaunchScreen.xib */; };
 		888192151A55D52300EFF3DE /* Mind_Meld_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888192141A55D52300EFF3DE /* Mind_Meld_3Tests.swift */; };
@@ -18,6 +17,23 @@
 		888192271A55F91400EFF3DE /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888192261A55F91400EFF3DE /* ViewController3.swift */; };
 		8881922A1A56139300EFF3DE /* lou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 888192281A56139300EFF3DE /* lou.jpg */; };
 		8881922B1A56139300EFF3DE /* mike.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 888192291A56139300EFF3DE /* mike.jpg */; };
+		8881922E1A5B7C5F00EFF3DE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8881922C1A5B7C5F00EFF3DE /* Bolts.framework */; };
+		888192311A5B7CD000EFF3DE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888192301A5B7CD000EFF3DE /* AudioToolbox.framework */; };
+		8881923C1A5B7D2100EFF3DE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888192321A5B7D2100EFF3DE /* CFNetwork.framework */; };
+		8881923D1A5B7D2100EFF3DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888192331A5B7D2100EFF3DE /* CoreGraphics.framework */; };
+		8881923E1A5B7D2100EFF3DE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888192341A5B7D2100EFF3DE /* CoreLocation.framework */; };
+		8881923F1A5B7D2100EFF3DE /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 888192351A5B7D2100EFF3DE /* libsqlite3.dylib */; };
+		888192401A5B7D2100EFF3DE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 888192361A5B7D2100EFF3DE /* libz.dylib */; };
+		888192411A5B7D2100EFF3DE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888192371A5B7D2100EFF3DE /* MobileCoreServices.framework */; };
+		888192421A5B7D2100EFF3DE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888192381A5B7D2100EFF3DE /* QuartzCore.framework */; };
+		888192431A5B7D2100EFF3DE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888192391A5B7D2100EFF3DE /* Security.framework */; };
+		888192441A5B7D2100EFF3DE /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8881923A1A5B7D2100EFF3DE /* StoreKit.framework */; };
+		888192451A5B7D2100EFF3DE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8881923B1A5B7D2100EFF3DE /* SystemConfiguration.framework */; };
+		8881924C1A5B821C00EFF3DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8881924A1A5B821C00EFF3DE /* Main.storyboard */; };
+		8881924E1A5B82C400EFF3DE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8881924D1A5B82C400EFF3DE /* LoginViewController.swift */; };
+		888192501A5B83E900EFF3DE /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8881924F1A5B83E900EFF3DE /* ParseFacebookUtils.framework */; };
+		888192521A5B84AC00EFF3DE /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888192511A5B84AC00EFF3DE /* FacebookSDK.framework */; };
+		888192541A6337CB00EFF3DE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888192531A6337CB00EFF3DE /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +51,6 @@
 		888191FD1A55D52300EFF3DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		888191FE1A55D52300EFF3DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		888192001A55D52300EFF3DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		888192031A55D52300EFF3DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		888192051A55D52300EFF3DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		888192081A55D52300EFF3DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8881920E1A55D52300EFF3DE /* Mind Meld 3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mind Meld 3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +61,24 @@
 		888192261A55F91400EFF3DE /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		888192281A56139300EFF3DE /* lou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lou.jpg; sourceTree = "<group>"; };
 		888192291A56139300EFF3DE /* mike.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mike.jpg; sourceTree = "<group>"; };
+		8881922C1A5B7C5F00EFF3DE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		888192301A5B7CD000EFF3DE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		888192321A5B7D2100EFF3DE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		888192331A5B7D2100EFF3DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		888192341A5B7D2100EFF3DE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		888192351A5B7D2100EFF3DE /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		888192361A5B7D2100EFF3DE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		888192371A5B7D2100EFF3DE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		888192381A5B7D2100EFF3DE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		888192391A5B7D2100EFF3DE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8881923A1A5B7D2100EFF3DE /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		8881923B1A5B7D2100EFF3DE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		888192461A5B7DFF00EFF3DE /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		8881924B1A5B821C00EFF3DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8881924D1A5B82C400EFF3DE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8881924F1A5B83E900EFF3DE /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		888192511A5B84AC00EFF3DE /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		888192531A6337CB00EFF3DE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +86,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888192501A5B83E900EFF3DE /* ParseFacebookUtils.framework in Frameworks */,
+				8881923C1A5B7D2100EFF3DE /* CFNetwork.framework in Frameworks */,
+				8881923D1A5B7D2100EFF3DE /* CoreGraphics.framework in Frameworks */,
+				8881923E1A5B7D2100EFF3DE /* CoreLocation.framework in Frameworks */,
+				8881923F1A5B7D2100EFF3DE /* libsqlite3.dylib in Frameworks */,
+				888192401A5B7D2100EFF3DE /* libz.dylib in Frameworks */,
+				888192541A6337CB00EFF3DE /* Parse.framework in Frameworks */,
+				888192411A5B7D2100EFF3DE /* MobileCoreServices.framework in Frameworks */,
+				888192421A5B7D2100EFF3DE /* QuartzCore.framework in Frameworks */,
+				888192431A5B7D2100EFF3DE /* Security.framework in Frameworks */,
+				888192441A5B7D2100EFF3DE /* StoreKit.framework in Frameworks */,
+				888192451A5B7D2100EFF3DE /* SystemConfiguration.framework in Frameworks */,
+				888192521A5B84AC00EFF3DE /* FacebookSDK.framework in Frameworks */,
+				888192311A5B7CD000EFF3DE /* AudioToolbox.framework in Frameworks */,
+				8881922E1A5B7C5F00EFF3DE /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +117,7 @@
 		888191F01A55D52300EFF3DE = {
 			isa = PBXGroup;
 			children = (
+				888192461A5B7DFF00EFF3DE /* bridge.h */,
 				888191FB1A55D52300EFF3DE /* Mind Meld 3 */,
 				888192111A55D52300EFF3DE /* Mind Meld 3Tests */,
 				888191FA1A55D52300EFF3DE /* Products */,
@@ -87,13 +136,14 @@
 		888191FB1A55D52300EFF3DE /* Mind Meld 3 */ = {
 			isa = PBXGroup;
 			children = (
+				8881924D1A5B82C400EFF3DE /* LoginViewController.swift */,
+				8881924A1A5B821C00EFF3DE /* Main.storyboard */,
 				888192291A56139300EFF3DE /* mike.jpg */,
 				888192281A56139300EFF3DE /* lou.jpg */,
 				888191FE1A55D52300EFF3DE /* AppDelegate.swift */,
 				888192001A55D52300EFF3DE /* ViewController.swift */,
 				888192221A55D6A200EFF3DE /* ViewController2.swift */,
 				888192261A55F91400EFF3DE /* ViewController3.swift */,
-				888192021A55D52300EFF3DE /* Main.storyboard */,
 				888192051A55D52300EFF3DE /* Images.xcassets */,
 				8881921E1A55D5DA00EFF3DE /* Candy.swift */,
 				888192071A55D52300EFF3DE /* LaunchScreen.xib */,
@@ -105,6 +155,21 @@
 		888191FC1A55D52300EFF3DE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				888192531A6337CB00EFF3DE /* Parse.framework */,
+				888192511A5B84AC00EFF3DE /* FacebookSDK.framework */,
+				888192321A5B7D2100EFF3DE /* CFNetwork.framework */,
+				888192331A5B7D2100EFF3DE /* CoreGraphics.framework */,
+				888192341A5B7D2100EFF3DE /* CoreLocation.framework */,
+				888192351A5B7D2100EFF3DE /* libsqlite3.dylib */,
+				888192361A5B7D2100EFF3DE /* libz.dylib */,
+				888192371A5B7D2100EFF3DE /* MobileCoreServices.framework */,
+				888192381A5B7D2100EFF3DE /* QuartzCore.framework */,
+				888192391A5B7D2100EFF3DE /* Security.framework */,
+				8881923A1A5B7D2100EFF3DE /* StoreKit.framework */,
+				8881923B1A5B7D2100EFF3DE /* SystemConfiguration.framework */,
+				888192301A5B7CD000EFF3DE /* AudioToolbox.framework */,
+				8881924F1A5B83E900EFF3DE /* ParseFacebookUtils.framework */,
+				8881922C1A5B7C5F00EFF3DE /* Bolts.framework */,
 				888191FD1A55D52300EFF3DE /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -207,11 +272,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				888192041A55D52300EFF3DE /* Main.storyboard in Resources */,
 				8881922B1A56139300EFF3DE /* mike.jpg in Resources */,
 				888192091A55D52300EFF3DE /* LaunchScreen.xib in Resources */,
 				8881922A1A56139300EFF3DE /* lou.jpg in Resources */,
 				888192061A55D52300EFF3DE /* Images.xcassets in Resources */,
+				8881924C1A5B821C00EFF3DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8881924E1A5B82C400EFF3DE /* LoginViewController.swift in Sources */,
 				888192271A55F91400EFF3DE /* ViewController3.swift in Sources */,
 				888192011A55D52300EFF3DE /* ViewController.swift in Sources */,
 				888192231A55D6A200EFF3DE /* ViewController2.swift in Sources */,
@@ -256,20 +322,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		888192021A55D52300EFF3DE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				888192031A55D52300EFF3DE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		888192071A55D52300EFF3DE /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				888192081A55D52300EFF3DE /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		8881924A1A5B821C00EFF3DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8881924B1A5B821C00EFF3DE /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -356,9 +422,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Mind",
+					Meld,
+					3,
+					"$(PROJECT_DIR)/Mind",
+					Meld,
+					3,
+				);
 				INFOPLIST_FILE = "Mind Meld 3/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
 			};
 			name = Debug;
 		};
@@ -366,9 +442,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Mind",
+					Meld,
+					3,
+					"$(PROJECT_DIR)/Mind",
+					Meld,
+					3,
+				);
 				INFOPLIST_FILE = "Mind Meld 3/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
 			};
 			name = Release;
 		};
@@ -425,6 +511,7 @@
 				8881921A1A55D52300EFF3DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8881921B1A55D52300EFF3DE /* Build configuration list for PBXNativeTarget "Mind Meld 3Tests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +520,7 @@
 				8881921D1A55D52300EFF3DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
