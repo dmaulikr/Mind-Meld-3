@@ -20,8 +20,22 @@ class LoginViewController: UITableViewController {
                 NSLog("Uh oh. The user cancelled the Facebook login.")
             } else if user.isNew {
                 NSLog("User signed up and logged in through Facebook!")
+                //self.performSegueWithIdentifier("loginSeg", sender: self)
+                self.performSegueWithIdentifier("segTabBar", sender: self)
             } else {
                 NSLog("User logged in through Facebook!")
+                //self.performSegueWithIdentifier("loginSeg", sender: self)
+               
+                
+                
+                
+          
+                
+                self.performSegueWithIdentifier("segTabBar", sender: self)
+                
+            }
+            if error != nil {
+                println("\(error.description)")
             }
         })
     
@@ -29,12 +43,22 @@ class LoginViewController: UITableViewController {
     }
     
     
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        PFUser.logOut()
+        
     
+    }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        if (PFUser.currentUser() != nil) {
+            println("logged in")
+            //self.performSegueWithIdentifier("loginSeg", sender: self)
+            self.performSegueWithIdentifier("segTabBar", sender: self)
+        }
         
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -58,9 +82,12 @@ class LoginViewController: UITableViewController {
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
-        // Return the number of rows in the section.
+         //Return the number of rows in the section.
         return 0
     }
+   
+
+
 
     /*
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {

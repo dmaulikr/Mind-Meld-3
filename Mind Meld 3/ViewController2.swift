@@ -19,6 +19,8 @@ class ViewController2: UITableViewController {
     
         self.candies = [Candy(name: "Start a New Game with Michael Hal"), Candy(name: "Resume Game with Josh Burstein"), Candy(name: "Start a new Game with Nancy Adele")]
         
+         self.tableView.reloadData()
+        
     
     }
 
@@ -30,6 +32,20 @@ class ViewController2: UITableViewController {
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.candies.count
+    }
+    
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        self.navigationItem.setHidesBackButton(true, animated: false)
+        let logOutButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Stop, target: self, action: Selector("logOut"))
+        self.navigationItem.setLeftBarButtonItem(logOutButton, animated: false)
+    }
+    
+    func logOut() {
+        PFUser.logOut()
+        self.navigationController?.popToRootViewControllerAnimated(true)
+        
     }
     
     
