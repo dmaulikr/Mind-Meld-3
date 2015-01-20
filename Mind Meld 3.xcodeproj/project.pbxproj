@@ -32,14 +32,10 @@
 		8881924C1A5B821C00EFF3DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8881924A1A5B821C00EFF3DE /* Main.storyboard */; };
 		8881924E1A5B82C400EFF3DE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8881924D1A5B82C400EFF3DE /* LoginViewController.swift */; };
 		888192501A5B83E900EFF3DE /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8881924F1A5B83E900EFF3DE /* ParseFacebookUtils.framework */; };
-		888192581A64B4B400EFF3DE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888192571A64B4B400EFF3DE /* Parse.framework */; };
 		8881925C1A659F9000EFF3DE /* GameOptionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8881925B1A659F9000EFF3DE /* GameOptionsTableViewController.swift */; };
 		8881925E1A65A04D00EFF3DE /* GameOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8881925D1A65A04D00EFF3DE /* GameOption.swift */; };
 		888192F81A65C37A00EFF3DE /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888192F71A65C37A00EFF3DE /* FacebookSDK.framework */; };
 		888193011A6878AB00EFF3DE /* MenuTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888193001A6878AB00EFF3DE /* MenuTabViewController.swift */; };
-		888193041A687D6800EFF3DE /* Gestures@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 888193021A687D6800EFF3DE /* Gestures@2x.png */; };
-		888193051A687D6800EFF3DE /* Players.png in Resources */ = {isa = PBXBuildFile; fileRef = 888193031A687D6800EFF3DE /* Players.png */; };
-		888193071A687E4A00EFF3DE /* 1Star.png in Resources */ = {isa = PBXBuildFile; fileRef = 888193061A687E4A00EFF3DE /* 1Star.png */; };
 		8881930A1A68818400EFF3DE /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888193091A68818400EFF3DE /* GamesViewController.swift */; };
 		8881930D1A6882C200EFF3DE /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8881930C1A6882C200EFF3DE /* Game.swift */; };
 		8881930F1A68836000EFF3DE /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8881930E1A68836000EFF3DE /* SampleData.swift */; };
@@ -48,6 +44,12 @@
 		8881931B1A6CDCB500EFF3DE /* RulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8881931A1A6CDCB500EFF3DE /* RulesViewController.swift */; };
 		8881931D1A6CE81600EFF3DE /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8881931C1A6CE81600EFF3DE /* SignInViewController.swift */; };
 		8881931F1A6DF12000EFF3DE /* JaroWinkler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8881931E1A6DF12000EFF3DE /* JaroWinkler.swift */; };
+		888193211A6DF1C400EFF3DE /* Players.png in Resources */ = {isa = PBXBuildFile; fileRef = 888193201A6DF1C400EFF3DE /* Players.png */; };
+		888193231A6DF1CD00EFF3DE /* 1Star.png in Resources */ = {isa = PBXBuildFile; fileRef = 888193221A6DF1CD00EFF3DE /* 1Star.png */; };
+		888193251A6DF1DC00EFF3DE /* Gestures@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 888193241A6DF1DC00EFF3DE /* Gestures@2x.png */; };
+		888193291A6DF27600EFF3DE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888193261A6DF27600EFF3DE /* Parse.framework */; };
+		8881932A1A6DF27600EFF3DE /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888193271A6DF27600EFF3DE /* ParseCrashReporting.framework */; };
+		8881932B1A6DF27600EFF3DE /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888193281A6DF27600EFF3DE /* ParseUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,14 +93,10 @@
 		8881924B1A5B821C00EFF3DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8881924D1A5B82C400EFF3DE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		8881924F1A5B83E900EFF3DE /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
-		888192571A64B4B400EFF3DE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../Downloads/parse-library-1/Parse.framework"; sourceTree = "<group>"; };
 		8881925B1A659F9000EFF3DE /* GameOptionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOptionsTableViewController.swift; sourceTree = "<group>"; };
 		8881925D1A65A04D00EFF3DE /* GameOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameOption.swift; path = "Mind Meld 3/GameOption.swift"; sourceTree = "<group>"; };
 		888192F71A65C37A00EFF3DE /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		888193001A6878AB00EFF3DE /* MenuTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTabViewController.swift; sourceTree = "<group>"; };
-		888193021A687D6800EFF3DE /* Gestures@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Gestures@2x.png"; path = "../../Downloads/Images/Gestures@2x.png"; sourceTree = "<group>"; };
-		888193031A687D6800EFF3DE /* Players.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Players.png; path = ../../Downloads/Images/Players.png; sourceTree = "<group>"; };
-		888193061A687E4A00EFF3DE /* 1Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1Star.png; path = ../../Downloads/Images/1Star.png; sourceTree = "<group>"; };
 		888193091A68818400EFF3DE /* GamesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
 		8881930C1A6882C200EFF3DE /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		8881930E1A68836000EFF3DE /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
@@ -107,6 +105,12 @@
 		8881931A1A6CDCB500EFF3DE /* RulesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulesViewController.swift; sourceTree = "<group>"; };
 		8881931C1A6CE81600EFF3DE /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		8881931E1A6DF12000EFF3DE /* JaroWinkler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JaroWinkler.swift; sourceTree = "<group>"; };
+		888193201A6DF1C400EFF3DE /* Players.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Players.png; path = "Mind Meld 3/Players.png"; sourceTree = "<group>"; };
+		888193221A6DF1CD00EFF3DE /* 1Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1Star.png; path = "Mind Meld 3/1Star.png"; sourceTree = "<group>"; };
+		888193241A6DF1DC00EFF3DE /* Gestures@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Gestures@2x.png"; path = "Mind Meld 3/Gestures@2x.png"; sourceTree = "<group>"; };
+		888193261A6DF27600EFF3DE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		888193271A6DF27600EFF3DE /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		888193281A6DF27600EFF3DE /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,17 +122,19 @@
 				8881923C1A5B7D2100EFF3DE /* CFNetwork.framework in Frameworks */,
 				8881923D1A5B7D2100EFF3DE /* CoreGraphics.framework in Frameworks */,
 				8881923E1A5B7D2100EFF3DE /* CoreLocation.framework in Frameworks */,
-				888192581A64B4B400EFF3DE /* Parse.framework in Frameworks */,
+				888193291A6DF27600EFF3DE /* Parse.framework in Frameworks */,
 				8881923F1A5B7D2100EFF3DE /* libsqlite3.dylib in Frameworks */,
 				888192401A5B7D2100EFF3DE /* libz.dylib in Frameworks */,
 				888192411A5B7D2100EFF3DE /* MobileCoreServices.framework in Frameworks */,
 				888192421A5B7D2100EFF3DE /* QuartzCore.framework in Frameworks */,
+				8881932B1A6DF27600EFF3DE /* ParseUI.framework in Frameworks */,
 				888192431A5B7D2100EFF3DE /* Security.framework in Frameworks */,
 				888192441A5B7D2100EFF3DE /* StoreKit.framework in Frameworks */,
 				888192F81A65C37A00EFF3DE /* FacebookSDK.framework in Frameworks */,
 				888192451A5B7D2100EFF3DE /* SystemConfiguration.framework in Frameworks */,
 				888192311A5B7CD000EFF3DE /* AudioToolbox.framework in Frameworks */,
 				8881922E1A5B7C5F00EFF3DE /* Bolts.framework in Frameworks */,
+				8881932A1A6DF27600EFF3DE /* ParseCrashReporting.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,8 +195,10 @@
 		888191FC1A55D52300EFF3DE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				888193261A6DF27600EFF3DE /* Parse.framework */,
+				888193271A6DF27600EFF3DE /* ParseCrashReporting.framework */,
+				888193281A6DF27600EFF3DE /* ParseUI.framework */,
 				888192F71A65C37A00EFF3DE /* FacebookSDK.framework */,
-				888192571A64B4B400EFF3DE /* Parse.framework */,
 				888192321A5B7D2100EFF3DE /* CFNetwork.framework */,
 				888192331A5B7D2100EFF3DE /* CoreGraphics.framework */,
 				888192341A5B7D2100EFF3DE /* CoreLocation.framework */,
@@ -229,12 +237,12 @@
 		888193081A68814B00EFF3DE /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				888193241A6DF1DC00EFF3DE /* Gestures@2x.png */,
+				888193221A6DF1CD00EFF3DE /* 1Star.png */,
+				888193201A6DF1C400EFF3DE /* Players.png */,
 				888193121A6AD79D00EFF3DE /* spok.jpg */,
 				888192291A56139300EFF3DE /* mike.jpg */,
 				888192281A56139300EFF3DE /* lou.jpg */,
-				888193061A687E4A00EFF3DE /* 1Star.png */,
-				888193021A687D6800EFF3DE /* Gestures@2x.png */,
-				888193031A687D6800EFF3DE /* Players.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -332,14 +340,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8881922B1A56139300EFF3DE /* mike.jpg in Resources */,
+				888193251A6DF1DC00EFF3DE /* Gestures@2x.png in Resources */,
 				888192091A55D52300EFF3DE /* LaunchScreen.xib in Resources */,
 				8881922A1A56139300EFF3DE /* lou.jpg in Resources */,
-				888193051A687D6800EFF3DE /* Players.png in Resources */,
+				888193211A6DF1C400EFF3DE /* Players.png in Resources */,
 				888193131A6AD79D00EFF3DE /* spok.jpg in Resources */,
 				888192061A55D52300EFF3DE /* Images.xcassets in Resources */,
-				888193041A687D6800EFF3DE /* Gestures@2x.png in Resources */,
 				8881924C1A5B821C00EFF3DE /* Main.storyboard in Resources */,
-				888193071A687E4A00EFF3DE /* 1Star.png in Resources */,
+				888193231A6DF1CD00EFF3DE /* 1Star.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +518,9 @@
 					Meld,
 					3,
 					/Users/louiskonig/Documents/FacebookSDK,
+					"$(PROJECT_DIR)/Mind",
+					Meld,
+					3,
 				);
 				INFOPLIST_FILE = "Mind Meld 3/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -538,6 +549,9 @@
 					Meld,
 					3,
 					/Users/louiskonig/Documents/FacebookSDK,
+					"$(PROJECT_DIR)/Mind",
+					Meld,
+					3,
 				);
 				INFOPLIST_FILE = "Mind Meld 3/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
