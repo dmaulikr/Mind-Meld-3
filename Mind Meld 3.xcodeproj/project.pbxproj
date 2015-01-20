@@ -36,7 +36,6 @@
 		8881925C1A659F9000EFF3DE /* GameOptionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8881925B1A659F9000EFF3DE /* GameOptionsTableViewController.swift */; };
 		8881925E1A65A04D00EFF3DE /* GameOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8881925D1A65A04D00EFF3DE /* GameOption.swift */; };
 		888192F81A65C37A00EFF3DE /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888192F71A65C37A00EFF3DE /* FacebookSDK.framework */; };
-		888192FD1A66254500EFF3DE /* JaroWinkler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888192FC1A66254500EFF3DE /* JaroWinkler.swift */; };
 		888193011A6878AB00EFF3DE /* MenuTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888193001A6878AB00EFF3DE /* MenuTabViewController.swift */; };
 		888193041A687D6800EFF3DE /* Gestures@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 888193021A687D6800EFF3DE /* Gestures@2x.png */; };
 		888193051A687D6800EFF3DE /* Players.png in Resources */ = {isa = PBXBuildFile; fileRef = 888193031A687D6800EFF3DE /* Players.png */; };
@@ -48,6 +47,7 @@
 		888193151A6ADBF700EFF3DE /* LoginViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888193141A6ADBF700EFF3DE /* LoginViewController2.swift */; };
 		8881931B1A6CDCB500EFF3DE /* RulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8881931A1A6CDCB500EFF3DE /* RulesViewController.swift */; };
 		8881931D1A6CE81600EFF3DE /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8881931C1A6CE81600EFF3DE /* SignInViewController.swift */; };
+		8881931F1A6DF12000EFF3DE /* JaroWinkler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8881931E1A6DF12000EFF3DE /* JaroWinkler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,7 +95,6 @@
 		8881925B1A659F9000EFF3DE /* GameOptionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOptionsTableViewController.swift; sourceTree = "<group>"; };
 		8881925D1A65A04D00EFF3DE /* GameOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameOption.swift; path = "Mind Meld 3/GameOption.swift"; sourceTree = "<group>"; };
 		888192F71A65C37A00EFF3DE /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
-		888192FC1A66254500EFF3DE /* JaroWinkler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JaroWinkler.swift; path = "../../../Downloads/Woolly-Mammoth-master/Code/JaroWinkler.swift"; sourceTree = "<group>"; };
 		888193001A6878AB00EFF3DE /* MenuTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTabViewController.swift; sourceTree = "<group>"; };
 		888193021A687D6800EFF3DE /* Gestures@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Gestures@2x.png"; path = "../../Downloads/Images/Gestures@2x.png"; sourceTree = "<group>"; };
 		888193031A687D6800EFF3DE /* Players.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Players.png; path = ../../Downloads/Images/Players.png; sourceTree = "<group>"; };
@@ -107,6 +106,7 @@
 		888193141A6ADBF700EFF3DE /* LoginViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController2.swift; sourceTree = "<group>"; };
 		8881931A1A6CDCB500EFF3DE /* RulesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulesViewController.swift; sourceTree = "<group>"; };
 		8881931C1A6CE81600EFF3DE /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		8881931E1A6DF12000EFF3DE /* JaroWinkler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JaroWinkler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,13 +166,13 @@
 		888191FB1A55D52300EFF3DE /* Mind Meld 3 */ = {
 			isa = PBXGroup;
 			children = (
+				8881931E1A6DF12000EFF3DE /* JaroWinkler.swift */,
 				8881924A1A5B821C00EFF3DE /* Main.storyboard */,
 				8881931C1A6CE81600EFF3DE /* SignInViewController.swift */,
 				888193141A6ADBF700EFF3DE /* LoginViewController2.swift */,
 				888193001A6878AB00EFF3DE /* MenuTabViewController.swift */,
 				8881931A1A6CDCB500EFF3DE /* RulesViewController.swift */,
 				888193091A68818400EFF3DE /* GamesViewController.swift */,
-				888192FC1A66254500EFF3DE /* JaroWinkler.swift */,
 				8881924D1A5B82C400EFF3DE /* LoginViewController.swift */,
 				8881925B1A659F9000EFF3DE /* GameOptionsTableViewController.swift */,
 				888191FE1A55D52300EFF3DE /* AppDelegate.swift */,
@@ -361,12 +361,12 @@
 				8881930D1A6882C200EFF3DE /* Game.swift in Sources */,
 				888192271A55F91400EFF3DE /* ViewController3.swift in Sources */,
 				888192011A55D52300EFF3DE /* ViewController.swift in Sources */,
+				8881931F1A6DF12000EFF3DE /* JaroWinkler.swift in Sources */,
 				8881931B1A6CDCB500EFF3DE /* RulesViewController.swift in Sources */,
 				888193011A6878AB00EFF3DE /* MenuTabViewController.swift in Sources */,
 				8881930A1A68818400EFF3DE /* GamesViewController.swift in Sources */,
 				888192231A55D6A200EFF3DE /* ViewController2.swift in Sources */,
 				8881925C1A659F9000EFF3DE /* GameOptionsTableViewController.swift in Sources */,
-				888192FD1A66254500EFF3DE /* JaroWinkler.swift in Sources */,
 				8881921F1A55D5DA00EFF3DE /* Candy.swift in Sources */,
 				8881930F1A68836000EFF3DE /* SampleData.swift in Sources */,
 				8881931D1A6CE81600EFF3DE /* SignInViewController.swift in Sources */,
